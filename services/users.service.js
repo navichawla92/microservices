@@ -33,7 +33,7 @@ module.exports = {
 				
 				const email = new Email({
 					message: {
-					  from: 'niftylettuce@gmail.com'
+					  from: 'demo@demo.com'
 					},
 					// uncomment below to send emails in development/test env:
 				    send: true,
@@ -46,7 +46,7 @@ module.exports = {
 					.send({
 					  template: 'mars',
 					  message: {
-						to: 'ims.msnegi@gmail.com'
+						to: 'demo@demo.com'
 					  },
 					  locals: {
 						name: 'Elon'
